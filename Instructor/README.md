@@ -43,7 +43,7 @@ Get a Free trial from here https://azure.microsoft.com/en-us/free/
 1. The project will probably be in a running state. If you can't select a compute from the dropdown (above the file list on the left), click the "shutdown" checkbox (or press the "h" key on the keyboard) to shu down the server
 1. Click on the compute dropdown and select "Direct compute", then in the "Run on new direct compute target" window that opened, fillin the following:  
     Name: automl-workshop  
-    Enter an IP: <the IP of the DSVM>  
+    Enter an IP: <<the IP of the DSVM>>  
     Username & Password: <as defined in the DSVM>
 1. Click "Validate" and wait for the green "Your DSVM configuration has been validated..." message. If you get an error message, try validate again, sometimes the error is intermittent. Once succeeded, click "Run" to open the the Jupyter notebook home page. You should be able to see the notebook list. If not, there is a problem with running the server on the DSVM, see the troubleshooting section.
 
