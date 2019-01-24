@@ -46,6 +46,7 @@ Get a Free trial from here https://azure.microsoft.com/en-us/free/
     Enter an IP: *the IP of the DSVM*  
     Username & Password: *as defined in the DSVM*
 1. Click "Validate" and wait for the green "Your DSVM configuration has been validated..." message. If you get an error message, try validate again, sometimes the error is intermittent. Once succeeded, click "Run" to open the the Jupyter notebook home page. You should be able to see the notebook list. If not, there is a problem with running the server on the DSVM, see the troubleshooting section.
+1. Select the "Python 3.6 - Azure ML" Kernel when prompted
 
 ### Run automated ML notebooks
 
@@ -67,4 +68,5 @@ TBD
 TBD
 
 ## Troubleshooting
-TBD
++ Issue: Jupyter server will not run, always back to "Stopped" mode
+  Fix: Log out from Azure Notebooks and log back in
