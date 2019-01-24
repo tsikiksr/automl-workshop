@@ -9,7 +9,7 @@ Recipe for creating and conducting automated ML workshop using Azure Notebooks b
 1. Go to Azure portal and create a Data Science Virtual Machine (with enough cores to serve the audience). Use username and password for admin access and write them down. recommended to use the following: user: automl , pass: AutoML123!@#
 1. Make sure port 8000 is open for all incoming traffic (Networking tab)
 1. Once the DSVM is running, log on to the console and update the Azure SDK to the latest version using the following commands:  
-sudo -i /anaconda/envs/py36/bin/pip install --upgrade azureml-sdk
+sudo -i /anaconda/envs/py36/bin/pip install --upgrade azureml-sdk  
 sudo -i /anaconda/envs/py36/bin/pip install --upgrade azureml-sdk[automl,notebooks,explain]
 
 ## Workshop walkthrough
