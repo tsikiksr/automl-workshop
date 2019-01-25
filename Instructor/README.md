@@ -4,7 +4,7 @@ Recipe for creating and conducting automated ML workshop using Azure Notebooks b
 
 ## Preparations
 
-### Prepare DSVM
+### Prepare DSVM (if using any in the workshop)
 
 1. Go to Azure portal and create a Data Science Virtual Machine (with enough cores to serve the audience). Use username and password for admin access and write them down. recommended to use the following: user: automl , pass: AutoML123!@#
 1. Make sure port 8000 is open for all incoming traffic (Networking tab)
@@ -35,7 +35,7 @@ Get a Free trial from here https://azure.microsoft.com/en-us/free/
 1. Make sure "Public" is checked
 1. Click "Import" and wait for the clone process to complete (can take a few minutes)
 
-#### Attach to DSVM
+#### Attach to DSVM (if using any)
 
 (**Instructor only**: go to the DSVM and write down the IP address. you have to do this right before the workshop starts because the IP is dynamic and can change over time)
 
@@ -53,6 +53,7 @@ Get a Free trial from here https://azure.microsoft.com/en-us/free/
 #### Configuration
 
 1. Go over the "configuration.ipynb" notebook
+  + If using free compute, users will be prompted to open a login window and enter a code
 
 #### Energy demand forecasting notebook
 
